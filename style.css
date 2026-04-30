@@ -148,7 +148,7 @@ section h2 {
 .about-container {
     display: flex;
     gap: 60px;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -500,4 +500,12 @@ section {
 section.visible {
     opacity: 1;
     transform: translateY(0);
+}
+.photo-profil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 4px solid var(--primary);
 }
